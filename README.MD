@@ -1,4 +1,4 @@
-# Fitbit OAuth 2.0 for Android!
+# Fitbit OAuth 2.0 for Android Nougat (target API 7.0)!
 
 This repo contains two Android library modules and a sample Android app for doing OAuth 2.0 with Fitbit APIs:
 
