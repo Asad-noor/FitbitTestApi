@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="au.com.faqinteractive.fitbitauth">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        >
+        <activity
+            android:name=".authentication.ui.LoginActivity"
+            android:theme="@style/Theme.Fitbit.Teal">
+        </activity>
+
+    </application>
+
+</manifest>
