@@ -222,5 +222,4 @@ SomeActivity.java
 
 ### Common API Exceptions
 
- - **MissingScopesException**: Thrown when a required scope is missing from the token. For instance, to use the `UserService.getLoggedInUserProfile` method your access token needs the `profile` scope. You can find a list of scopes here: https://dev.fitbit.com/docs/oauth2/#scope
- - **TokenExpiredException**: Thrown when the token is no longer valid. If you set `AuthenticationConfiguration.setLogoutOnAuthFailure` to true, this exception will not be thrown, and the app will return to the "before login" activity (An intent to this activity must also be set).
+ - **MissingScopesException**: Thrown when a required scope is missing from the token. For instance, to use the `UserService.getLoggedInUserProfile` method your access token needs the `profile` scope. You can find a list of scopes.
